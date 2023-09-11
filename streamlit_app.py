@@ -56,7 +56,3 @@ my_data_row = my_cur.fetchone()
 streamlit.text("The fruit load list contains:")
 streamlit.text(my_data_row)
 
-
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response)
